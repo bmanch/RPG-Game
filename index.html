@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RPG Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<header>
+		Title
+	</header>
+
+	<div class="container">
+		<div id="instructions">
+			<h1>Instructions</h1>
+		</div>
+		<div id="allCharacters">
+			<h1>They can all Talk the Talk</h1>
+			<div class="picButton" id="maury">
+				<h3>Maury Povich</h3>
+				<img src="assets/images/maury.jpg" alt="Maury Povich" width="120" height="90">
+				<h3 id="healthPointsMaury">HP: 100</h3>
+			</div>
+
+			<div class="picButton" id="ricki">
+				<h3>Ricki Lake</h3>
+				<img src="assets/images/ricki.jpg" alt="Ricki Lake" width="120" height="90">
+				<h3 id="healthPointsRicki">HP: 120</h3>
+			</div>
+
+			<div class="picButton" id="jerry">
+				<h3>Jerry Springer</h3>
+				<img src="assets/images/springer.jpg" alt="Jerry Springer" width="120" height="90">
+				<h3 id="healthPointsJerry">HP: 150</h3>
+			</div>
+
+			<div class="picButton" id ="oprah">
+				<h3>Oprah Winfrey</h3>
+				<img src="assets/images/oprah.jpg" alt="Oprah Winfrey" width="120" height="90">
+				<h3 id="healthPointsOprah">HP: 180</h3>
+			</div>
+		</div>
+		<div id="yourEnemies">
+			<h1>Your Enemies</h1>
+		</div>
+		<div id="battleGround">
+			<h1>But who can Walk the Walk?</h1>
+			<br>
+			<h1>Battle Ground</h1>
+			<div id="center">
+				<div class="inline" id="yourFighter">
+				Your Fighter
+				</div>
+				<div class="inline">vs.
+				</div>
+				<div class="inline" id="yourOpponent">
+				Your Opponent
+				</div>
+			</div>
+			<button id="attack">attack</button>
+		</div>
+		<div id="damageReport">
+			<h1>Attack Result</h1>
+			<div id="result"></div>
+		</div>
+	</div>
+
+	<footer>
+	<h4>&copy; Copyright 2017 Brian Manchester</h4>
+	<br>
+	<h4>Enjoyed the experience? See more work by the same developer <a href="https://bmanch.github.io/Bootstrap-Portfolio/" target="blank">here</a>.</h4>
+	</footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
